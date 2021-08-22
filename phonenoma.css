@@ -1,0 +1,79 @@
+.main{background-image: url(./images/AdobeStock_294321823.jpeg);}
+h1{font-size: 60px;}
+
+.grid-container{display: grid;
+      
+                
+    background-color: aqua;
+  
+    padding-right: 50px;
+    grid-template-columns: auto auto;
+    
+   
+}
+.grid-item-one{
+display: inline-flex;
+}
+#code{padding-top: 40px;
+    padding-left:50px;}
+.grid-item-two p{padding: 30px;
+float: right;
+}
+.grid-item-two p span{background-color: whitesmoke;
+border: 3px;}
+h3::first-letter{background-color: turquoise;
+font-size: 30px;}
+h3 span{background-color: wheat;}
+h2::first-letter{background-color: turquoise;
+    font-size: 40px;}
+h2 span{background-color: wheat;}
+.black{background-color: black;
+color: white;}
+.turquiose{background-color: turquoise;}
+.end{background-color:rgb(8, 8, 24);
+color: white;}
+.the-end a{color:blue}
+.the-end a:hover{color:white;}
+.last{float: right;
+color: white;}
+.mail a{color: blue;
+text-decoration: underline;}
+.mail a:hover{color: white;}
+.center{text-align: center;}
+.kes{text-decoration: line-through;}
+figcaption button{background-color: teal;
+padding: 10px;}
+.parent{background-color:whitesmoke;
+margin-top: 5px;
+width: 400px;
+border-radius: 5px;
+padding: 20px;
+margin: auto;
+position: relative;}
+.black-arrow{background-color:black;
+       
+ padding: 20px;
+    position: absolute;
+    
+    left: -50px;
+    top:1px;
+    color:white;
+    transform: rotate(180deg);
+    filter: sepia(100%);
+    
+    padding-left: 5px;
+  }
+  .orange-arrow{
+    position: absolute;
+    left: 440px;
+    top:440px;
+    
+     width: 120px;
+     height: 80px;
+    border-radius: 5px ;
+  
+  }
+  .main-parent{background-image: url(walls.jfif);
+    background-repeat: no-repeat;
+    max-width: 100%;
+background-size: cover;}
